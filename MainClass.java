@@ -122,6 +122,7 @@ public class MainClass {
             choice = input.nextByte();
         } catch (Exception ex) {
             System.out.println("\n\nInvalid Choice");
+             input.nextLine();
         }
         return choice;
     }
